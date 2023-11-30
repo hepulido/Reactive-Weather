@@ -34,7 +34,7 @@ function Location({ data, location }) {
                             <img className="card-img-top" src={getForeCast()} alt="Card image cap" id="icon" />
                         </div>
                     }
-                    <div class="card-body">
+                    <div className="card-body">
                         <h3 className="card-title">{cityData.city}</h3>
                         <h5 className="card-text">{cityData.temperature}</h5>
                         <h5 className="card-text">{cityData.forecast}</h5>

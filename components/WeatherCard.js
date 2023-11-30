@@ -27,7 +27,7 @@ function WeatherCard(props) {
           <img className="card-img-top" src={getForeCast()} alt="Card image cap" id="icon" />
         </div> 
       }
-      <div class="card-body">
+      <div className="card-body">
         <h3 className="card-title">{props.weather.city}</h3>
         <h5 className="card-text">{props.weather.temperature}</h5>
         <h5 className="card-text">{props.weather.forecast}</h5>
